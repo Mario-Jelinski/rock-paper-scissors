@@ -1,0 +1,2 @@
+var Computer=function(){Player.call(this),this.names=["Amiga","Atari","Z80"]};Computer.prototype=Object.create(Player.prototype),Computer.prototype.createName=function(){var t=Math.floor(3*Math.random());this.name=this.names[t]},Computer.prototype.calculateChoice=function(t){return Math.floor(Math.random()*t)};
+//# sourceMappingURL=build.map

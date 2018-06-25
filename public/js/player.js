@@ -1,0 +1,2 @@
+var Player=function(){this.score=0,this.name="Player"};Player.prototype={setScore:function(e){this.score=e},getScore:function(){return this.score},setName:function(e){this.name=e},getName:function(){return this.name}};
+//# sourceMappingURL=build.map

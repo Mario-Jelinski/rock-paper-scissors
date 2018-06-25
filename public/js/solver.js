@@ -1,0 +1,2 @@
+var Solver=function(){this.choices=["rock","spock","paper","lizard","scissors"],this.map={}};Solver.prototype={init:function(){var t=this;this.choices.forEach(function(o,e){t.map[o]={};for(var c=0,i=(t.choices.length-1)/2;c<t.choices.length;c++){var r=(e+c)%t.choices.length;c?t.map[o][t.choices[r]]=c<=i?2:1:t.map[o][o]="0"}})},compare:function(o,e){return(this.map[o]||{})[e]||-1}},"undefined"!=typeof module&&(module.exports=Solver);
+//# sourceMappingURL=build.map
