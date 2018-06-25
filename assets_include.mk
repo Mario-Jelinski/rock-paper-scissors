@@ -11,7 +11,6 @@ all:
 
 styles: 
 	lessc --clean-css less/styles.less css/styles.css
-
 build:
 	eslint js/game.js js/computer.js js/player.js js/solver.js
 	mkdir -p public/js
