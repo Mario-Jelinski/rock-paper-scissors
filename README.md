@@ -8,7 +8,7 @@ Node server will run on port 3000
 
 # make
 run tests
-	make test
+	**make test**
 building css and js
-	make
+	**make**
 
